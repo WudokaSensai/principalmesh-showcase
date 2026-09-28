@@ -1,0 +1,13 @@
+[project]
+name = "principalmesh-showcase"
+version = "0.1.0"
+description = "Offline examples of identity binding and bounded provider fallback"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
